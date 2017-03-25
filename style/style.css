@@ -210,14 +210,16 @@
     font-family: Lato;
     font-size: 45px;
     font-weight: 400;
-    line-height: 90px;
     text-transform: uppercase;
+    margin: 0;
+    margin-top: 71px;
 }
 .banner__text {
     font-family: Lato;
     font-size: 22px;
     font-weight: 100;
     line-height: 28px;
+    margin: 12px 0 70px;
 }
 .banner__link {
     color: #FFF;
@@ -342,4 +344,80 @@
 }
 .works-row-2__link:hover .works-row-2__h3 {
     color: #12ACEF;
+}
+
+/* contact us */
+.contact-bg {
+    height: 802px;
+    width: 100%;
+    background-image: url(../image/contact-bg-img.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.contact {
+    max-width: 1170px;
+    margin: 0 auto;
+    text-align: center;
+}
+.contact__h2 {
+    color: #ffffff;
+    font-family: Raleway;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 60px;
+    text-transform: uppercase;
+}
+.contact__line {
+    width: 86px;
+    height: 2px;
+    background-color: #ffffff;
+}
+.contact__list {
+    margin: 0;
+    padding: 0;
+}
+.contact__social {
+    display: inline-block;
+    font-size: 24px;
+    margin: 73px 12px;
+}
+.contact__link {
+    color: #FFF;
+}
+.contact__link:hover {
+    color: #12ACEF;
+}
+.form {
+    text-align: center;
+     color: #676767;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    font-style: italic;
+    line-height: 40px;
+}
+.form__name {
+    display: inline-block;
+    width: 50%;
+    max-width: 300px;
+    margin: 0 30px;
+    border: 0;
+    background-color: #02220;
+   
+}
+.form__email {
+    display: inline-block;
+    width: 50%;
+    max-width: 300px;
+    margin: 0 30px;
+}
+.form__text {
+    display: block;
+    width: 100%;
+    max-width: 670px;
+    margin: 0 auto;
+}
+.form__submit {
+    display: block;
+    margin: 0 auto;
 }

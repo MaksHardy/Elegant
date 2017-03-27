@@ -1,0 +1,58 @@
+$color-white: #FFF;
+$color-blue: #12ACEF;
+.banner-bg-img {
+    height: 500px;
+    width: 100%;
+    background-image: url(../image/banner-bg-img.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.banner {
+    font-size: 0;
+    max-width: 1170px;
+    margin: 0 auto;
+    &__h2 {
+        font-family: Lato;
+        font-size: 45px;
+        font-weight: 400;
+        text-transform: uppercase;
+        margin: 0;
+        margin-top: 163px;
+        letter-spacing: 0.03em;
+    }
+    &__text {
+        font-family: Lato;
+        font-size: 22px;
+        font-weight: 100;
+        line-height: 28px;
+        margin: 4px 0 62px;
+        letter-spacing: 0.013em;
+    }
+    &__link {
+        color: $color-white;
+        font-family: Lato;
+        font-size: 18px;
+        font-weight: 300;
+        text-decoration: underline;
+        &:hover {
+            color: $color-blue;
+        }
+    }
+    &__left {
+    display: inline-block;
+    text-align: left;
+    color: #FFF;
+    width: 50%;
+    vertical-align: top;
+}
+&__right {
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+    vertical-align: middle;
+}
+&__image {
+    padding: 75px 0 0 230px;
+}
+}
